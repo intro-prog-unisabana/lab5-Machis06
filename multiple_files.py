@@ -1,6 +1,6 @@
 from utils import *
-mensaje = input("Please type your message\n")
-mensaje_invertido = flip(mensaje)
-cantidad_a = count_letters(mensaje, "a")
-mensaje_codificado = mensaje_invertido + ("a" * cantidad_a)
-print("Your ecoded message is:", mensaje_codificado)
+message = input("Please type your message\n")
+flipped_message = flip(message)
+num_a = count_letters(message, "a")
+encoded_message = flipped_message + ("a" * num_a)
+print("Your ecoded message is:", encoded_message)
