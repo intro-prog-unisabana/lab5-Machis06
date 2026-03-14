@@ -6,4 +6,4 @@ def set_globals(some_int, some_str):
     global_str = some_str
 
 def get_globals():
-    return (global_int, global_str)
+    return (globals().get("global_int"), globals().get("global_str"))
