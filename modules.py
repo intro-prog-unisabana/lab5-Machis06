@@ -1,16 +1,14 @@
 import os
-import math 
+import math
+
+
 directorio = os.getcwd()
 print("Current working directory:", directorio)
 
-num = int(input("Enter an integer:"))
-valor_log = math.log2(num)
-print("Log base 2 of", num, "is:", valor_log)
+num = int(input("Enter an integer: "))
 
-floor = math.floor(valor_log)
-ceil = math.ceil(valor_log)
+log_val = math.log2(num)
+print("Log base 2 of", num, "is:", log_val)
 
-print("Floor:", floor)
-print("Ceiling:", ceil)
-
-
+print("Floor:", math.floor(log_val))
+print("Ceiling:", math.ceil(log_val))
