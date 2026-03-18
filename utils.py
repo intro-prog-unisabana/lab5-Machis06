@@ -28,10 +28,6 @@ if __name__ == "__main__":
 # FREEZE CODE END
 
 
-# ----------------------
-# PARTE I - V (AGREGADO)
-# ----------------------
-
 def add(num1, num2):
     return num1 + num2
 
